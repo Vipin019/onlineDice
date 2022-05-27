@@ -17,35 +17,33 @@ nav{
     background-color: rgb(67, 66, 67);
     box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
     display: grid;
-    grid-template-columns: 85% auto;
+    grid-template-columns: 90% auto;
 
-}
-#title{
-    
 }
 #title h2{
     font-family: 'Oswald', sans-serif;
     color: gold;
     font-weight: bold;
-    margin-left: 2rem;
-    padding: .5rem;
+    margin-left: .5rem;
+    padding: .1rem;
+    font-size: 1.5rem;
 
 }
-.switch{
-    /* border: .2rem solid red; */
-    
+#switch{
+    font-size: .5rem;
 }
 .form-check{
-    margin-top: 1rem;
+    margin-top: .7rem;
     color: white;
 }
+
 #container{
     display: grid;
     grid-template-columns:65% auto;
     grid-column-gap:2rem;
 }
 #dice{
-    margin-top: 10rem;
+    margin-top: 5rem;
     height: 15rem;
     width: 15rem;
     
@@ -60,15 +58,15 @@ nav{
     grid-row-gap: .5rem;
 }
 #result{
-    margin-top: 10rem;
-    margin-left: 20rem;
+    margin-top: 4rem;
+    margin-left: 5rem;
 }
 #result p{
     color: rgb(37, 247, 107);
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: 'Permanent Marker', cursive;
     text-align: center;
-    padding-top: 2rem;
+    
 }
 
 .circle{
@@ -83,9 +81,11 @@ nav{
 }
 #count{
     text-align: center;
+    font-size: 1rem;
 }
 #xcount{
     text-align: center;
+    font-size: 1rem;
     
 }
 
@@ -104,108 +104,27 @@ nav{
         background-color: rgb(67, 66, 67);
         box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
         display: grid;
-        grid-template-columns: 65% auto;
+        grid-template-columns: 90% auto;
     
     }
     #title h2{
         font-family: 'Oswald', sans-serif;
         color: gold;
         font-weight: bold;
-        margin-left: 1.5rem;
-        padding: 4rem;
-        font-size: 6.5rem;
-    
-    }
-    #switch{
+        margin-left: .4rem;
+        padding: .8rem;
         font-size: 2rem;
-    }
-    .form-check{
-        margin-top: 8rem;
-        color: white;
-    }
-    #container{
-        display: grid;
-        grid-template-columns:auto;
-        /* grid-row-gap:2rem; */
-    }
-    #dice{
-        margin: 0rem;
-        margin-top: 20rem;
-        margin-bottom: 20rem;
-        height: 40rem;
-        width: 40rem;
-        
-        background-color: rgb(200, 7, 7);
-        border-radius: 5rem;
-        margin-left: 28%;
-    }
-    #circles{
-        
-        margin: 4rem;
-        margin-right: 2rem;
-        display: grid;
-        grid-template-columns: auto auto auto;
-        grid-row-gap: 4rem;
-        
-
-    }
-    #result{
-        margin: 0rem;
-        margin-top: 20rem;
-        align-items: center;
-    }
-    #result p{
-        color: rgb(37, 247, 107);
-        font-size: 15rem;
-        font-family: 'Permanent Marker', cursive;
-        text-align: center;
-    }
-    
-    .circle{
-        height: 8rem;
-        width: 8rem;
-        background-color: white;
-        border-radius: 100%;
-    
-    }
-    .xs{
-        background-color: rgb(200, 7, 7);
-    }
-    #count{
-        font-size: 5rem;
-    }
-    #xcount{
-        font-size: 5rem;
-    }
-}
-
-
-@media(max-width:700px){
-    nav{
-        position: sticky;
-        top: 0rem;
-        width: 100%;
-        background-color: rgb(67, 66, 67);
-        box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
-        display: grid;
-        grid-template-columns: 65% auto;
-    
-    }
-    #title h2{
-        font-family: 'Oswald', sans-serif;
-        color: gold;
-        font-weight: bold;
-        margin-left: 1.5rem;
-        padding: 4rem;
-        font-size: 5rem;
     
     }
     #switch{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .form-check{
-        margin-top: 6rem;
+        margin-top: 1.5rem;
         color: white;
+    }
+    label{
+        display: none;
     }
     #container{
         display: grid;
@@ -214,19 +133,19 @@ nav{
     }
     #dice{
         margin: 0rem;
-        margin-top: 20rem;
-        margin-bottom: 20rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
         height: 25rem;
         width: 25rem;
         
         background-color: rgb(200, 7, 7);
-        border-radius: 4rem;
-        margin-left: 30%;
+        border-radius: 2rem;
+        margin-left: 27%;
     }
     #circles{
         
-        margin: 2.5rem;
-        margin-right: 1.5rem;
+        margin: 2rem;
+        margin-right: 1rem;
         display: grid;
         grid-template-columns: auto auto auto;
         grid-row-gap: 2rem;
@@ -235,172 +154,7 @@ nav{
     }
     #result{
         margin: 0rem;
-        margin-top: 10rem;
-        align-items: center;
-    }
-    #result p{
-        color: rgb(37, 247, 107);
-        font-size: 10rem;
-        font-family: 'Permanent Marker', cursive;
-        text-align: center;
-    }
-    
-    .circle{
-        height: 5rem;
-        width: 5rem;
-        background-color: white;
-        border-radius: 100%;
-    
-    }
-    .xs{
-        background-color: rgb(200, 7, 7);
-    }
-    #count{
-        font-size: 3rem;
-    }
-    #xcount{
-        font-size: 3rem;
-    }
-}
-
-@media(max-width:500px){
-    nav{
-        position: sticky;
-        top: 0rem;
-        width: 100%;
-        background-color: rgb(67, 66, 67);
-        box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
-        display: grid;
-        grid-template-columns: 60% auto;
-    
-    }
-    #title h2{
-        font-family: 'Oswald', sans-serif;
-        color: gold;
-        font-weight: bold;
-        margin-left: 1.4rem;
-        padding: 3.8rem;
-        font-size: 4.5rem;
-    
-    }
-    #switch{
-        font-size: 1.3rem;
-    }
-    .form-check{
-        margin-top: 5.5rem;
-        color: white;
-    }
-    #container{
-        display: grid;
-        grid-template-columns:auto;
-        /* grid-row-gap:2rem; */
-    }
-    #dice{
-        margin: 0rem;
-        margin-top: 17rem;
-        margin-bottom: 17rem;
-        height: 23rem;
-        width: 23rem;
-        
-        background-color: rgb(200, 7, 7);
-        border-radius: 3.5rem;
-        margin-left: 28%;
-    }
-    #circles{
-        
-        margin: 2.3rem;
-        margin-right: 1.4rem;
-        display: grid;
-        grid-template-columns: auto auto auto;
-        grid-row-gap: 1.8rem;
-        
-
-    }
-    #result{
-        margin: 0rem;
-        margin-top: 8rem;
-        align-items: center;
-    }
-    #result p{
-        color: rgb(37, 247, 107);
-        font-size: 8rem;
-        font-family: 'Permanent Marker', cursive;
-        text-align: center;
-    }
-    
-    .circle{
-        height: 4.8rem;
-        width: 4.8rem;
-        background-color: white;
-        border-radius: 100%;
-    
-    }
-    .xs{
-        background-color: rgb(200, 7, 7);
-    }
-    #count{
-        font-size: 2.5rem;
-    }
-    #xcount{
-        font-size: 2.5rem;
-    }
-}
-@media(max-width:400px){
-    nav{
-        position: sticky;
-        top: 0rem;
-        width: 100%;
-        background-color: rgb(67, 66, 67);
-        box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
-        display: grid;
-        grid-template-columns: 60% auto;
-    
-    }
-    #title h2{
-        font-family: 'Oswald', sans-serif;
-        color: gold;
-        font-weight: bold;
-        margin-left: 1.2rem;
-        padding: 2.5rem;
-        font-size: 3.5rem;
-    
-    }
-    #switch{
-        font-size: 1.1rem;
-    }
-    .form-check{
-        margin-top: 4.5rem;
-        color: white;
-    }
-    #container{
-        display: grid;
-        grid-template-columns:auto;
-        /* grid-row-gap:2rem; */
-    }
-    #dice{
-        margin: 0rem;
-        margin-top: 15rem;
-        margin-bottom: 15rem;
-        height: 20rem;
-        width: 20rem;
-        
-        background-color: rgb(200, 7, 7);
-        border-radius: 3.2rem;
-        margin-left: 24%;
-    }
-    #circles{
-        
-        margin: 2.2rem;
-        margin-right: 1.3rem;
-        display: grid;
-        grid-template-columns: auto auto auto;
-        grid-row-gap: 1.6rem;
-        
-
-    }
-    #result{
-        margin: 0rem;
-        margin-top: 6rem;
+        margin-top: 5rem;
         align-items: center;
     }
     #result p{
@@ -411,8 +165,8 @@ nav{
     }
     
     .circle{
-        height: 4.5rem;
-        width: 4.5rem;
+        height: 5.5rem;
+        width: 5.5rem;
         background-color: white;
         border-radius: 100%;
     
@@ -421,14 +175,13 @@ nav{
         background-color: rgb(200, 7, 7);
     }
     #count{
-        font-size: 2.3rem;
+        font-size: 2rem;
     }
     #xcount{
-        font-size: 2.3rem;
+        font-size: 2rem;
     }
 }
-
-@media(max-width:300px){
+@media(max-width:550px){
     nav{
         position: sticky;
         top: 0rem;
@@ -436,23 +189,23 @@ nav{
         background-color: rgb(67, 66, 67);
         box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
         display: grid;
-        grid-template-columns: 80% auto;
+        grid-template-columns: 90% auto;
     
     }
     #title h2{
         font-family: 'Oswald', sans-serif;
         color: gold;
         font-weight: bold;
-        margin-left: 1rem;
-        padding: 2.1rem;
-        font-size: 3rem;
+        margin-left: .4rem;
+        padding: .8rem;
+        font-size: 2rem;
     
     }
     #switch{
         font-size: 1rem;
     }
     .form-check{
-        margin-top: 3rem;
+        margin-top: 1.5rem;
         color: white;
     }
     label{
@@ -465,28 +218,198 @@ nav{
     }
     #dice{
         margin: 0rem;
-        margin-top: 12rem;
-        margin-bottom: 12rem;
-        height: 16rem;
-        width: 16rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        height: 25rem;
+        width: 25rem;
         
         background-color: rgb(200, 7, 7);
-        border-radius: 2.7rem;
-        margin-left: 22%;
+        border-radius: 2rem;
+        margin-left: 18%;
     }
     #circles{
         
-        margin: 1rem;
-        margin-right: .6rem;
+        margin: 2rem;
+        margin-right: 1rem;
         display: grid;
         grid-template-columns: auto auto auto;
-        grid-row-gap: .5rem;
+        grid-row-gap: 2rem;
         
 
     }
     #result{
         margin: 0rem;
+        margin-top: 5rem;
+        align-items: center;
+    }
+    #result p{
+        color: rgb(37, 247, 107);
+        font-size: 5rem;
+        font-family: 'Permanent Marker', cursive;
+        text-align: center;
+    }
+    
+    .circle{
+        height: 5.5rem;
+        width: 5.5rem;
+        background-color: white;
+        border-radius: 100%;
+    
+    }
+    .xs{
+        background-color: rgb(200, 7, 7);
+    }
+    #count{
+        font-size: 2rem;
+    }
+    #xcount{
+        font-size: 2rem;
+    }
+}
+@media(max-width:450px){
+    nav{
+        position: sticky;
+        top: 0rem;
+        width: 100%;
+        background-color: rgb(67, 66, 67);
+        box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+        display: grid;
+        grid-template-columns: 90% auto;
+    
+    }
+    #title h2{
+        font-family: 'Oswald', sans-serif;
+        color: gold;
+        font-weight: bold;
+        margin-left: .4rem;
+        padding: .8rem;
+        font-size: 2rem;
+    
+    }
+    #switch{
+        font-size: 1rem;
+    }
+    .form-check{
+        margin-top: 1.5rem;
+        color: white;
+    }
+    label{
+        display: none;
+    }
+    #container{
+        display: grid;
+        grid-template-columns:auto;
+        /* grid-row-gap:2rem; */
+    }
+    #dice{
+        margin: 0rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        height: 25rem;
+        width: 25rem;
+        
+        background-color: rgb(200, 7, 7);
+        border-radius: 2rem;
+        margin-left: 10%;
+    }
+    #circles{
+        
+        margin: 2rem;
+        margin-right: 1rem;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-row-gap: 2rem;
+        
+
+    }
+    #result{
+        margin: 0rem;
+        margin-top: 5rem;
+        align-items: center;
+    }
+    #result p{
+        color: rgb(37, 247, 107);
+        font-size: 5rem;
+        font-family: 'Permanent Marker', cursive;
+        text-align: center;
+    }
+    
+    .circle{
+        height: 5.5rem;
+        width: 5.5rem;
+        background-color: white;
+        border-radius: 100%;
+    
+    }
+    .xs{
+        background-color: rgb(200, 7, 7);
+    }
+    #count{
+        font-size: 2rem;
+    }
+    #xcount{
+        font-size: 2rem;
+    }
+}
+@media(max-width:350px){
+    nav{
+        position: sticky;
+        top: 0rem;
+        width: 100%;
+        background-color: rgb(67, 66, 67);
+        box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+        display: grid;
+        grid-template-columns: 90% auto;
+    
+    }
+    #title h2{
+        font-family: 'Oswald', sans-serif;
+        color: gold;
+        font-weight: bold;
+        margin-left: .4rem;
+        padding: .8rem;
+        font-size: 2rem;
+    
+    }
+    #switch{
+        font-size: 1rem;
+    }
+    .form-check{
+        margin-top: 1.5rem;
+        color: white;
+    }
+    label{
+        display: none;
+    }
+    #container{
+        display: grid;
+        grid-template-columns:auto;
+        /* grid-row-gap:2rem; */
+    }
+    #dice{
+        margin: 0rem;
         margin-top: 4rem;
+        margin-bottom: 3rem;
+        height: 16rem;
+        width: 16rem;
+        
+        background-color: rgb(200, 7, 7);
+        border-radius: 1rem;
+        margin-left: 12%;
+    }
+    #circles{
+        
+        margin: 1rem;
+        margin-right: .5rem;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-row-gap: 1rem;
+        
+
+    }
+    #result{
+        margin: 0rem;
+        margin-top: 5rem;
         align-items: center;
     }
     #result p{
@@ -497,8 +420,8 @@ nav{
     }
     
     .circle{
-        height: 4.2rem;
-        width: 4.2rem;
+        height: 4rem;
+        width: 4rem;
         background-color: white;
         border-radius: 100%;
     
@@ -507,97 +430,11 @@ nav{
         background-color: rgb(200, 7, 7);
     }
     #count{
-        font-size: 1.6rem;
+        font-size: 1rem;
     }
     #xcount{
-        font-size: 1.6rem;
+        font-size: 1rem;
     }
 }
 
-@media(max-width:200px){
-    nav{
-        position: sticky;
-        top: 0rem;
-        width: 100%;
-        background-color: rgb(67, 66, 67);
-        box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
-        display: grid;
-        grid-template-columns: 85% auto;
-    
-    }
-    #title h2{
-        font-family: 'Oswald', sans-serif;
-        color: gold;
-        font-weight: bold;
-        margin-left: .3rem;
-        padding: 1.2rem;
-        font-size: 1.5rem;
-    
-    }
-    #switch{
-        font-size: .7rem;
-    }
 
-    .form-check{
-        margin-top: 2rem;
-        color: white;
-    }
-    label{
-        display: none;
-    }
-    #container{
-        display: grid;
-        grid-template-columns:auto;
-        /* grid-row-gap:2rem; */
-    }
-    #dice{
-        margin: 0rem;
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-        height: 10rem;
-        width: 10rem;
-        
-        background-color: rgb(200, 7, 7);
-        border-radius: 1.5rem;
-        margin-left: 18.5%;
-    }
-    #circles{
-        
-        margin: .7rem;
-        margin-right: .3rem;
-        display: grid;
-        grid-template-columns: auto auto auto;
-        grid-row-gap: .1rem;
-        
-
-    }
-    #result{
-        margin: 0rem;
-        margin-top: 1.5rem;
-        padding-top: 0rem;
-        align-items: center;
-    }
-    #result p{
-        color: rgb(37, 247, 107);
-        font-size: 1.5rem;
-        font-family: 'Permanent Marker', cursive;
-        text-align: center;
-    }
-    
-    .circle{
-        height: 2.8rem;
-        width: 2.8rem;
-        background-color: white;
-        border-radius: 100%;
-    
-    }
-    .xs{
-        background-color: rgb(200, 7, 7);
-    }
-    #count{
-        font-size: .6rem;
-    }
-    #xcount{
-        font-size: .6rem;
-    }
-}
